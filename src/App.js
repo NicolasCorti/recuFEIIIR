@@ -30,8 +30,8 @@ function App() {
     }
   };
 
-  const handleFavorita = () => {
-    setFavorita(Item)
+  const handleFavorita = (nombre) => {
+    setFavorita(nombre)
   };
 
   return (
