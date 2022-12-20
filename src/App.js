@@ -31,7 +31,7 @@ function App() {
   };
 
   const handleFavorita = () => {
-    setFavorita("")
+    setFavorita(Item)
   };
 
   return (
